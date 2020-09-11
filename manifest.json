@@ -1,0 +1,23 @@
+{
+    "name": "Today Weather",
+    "short_name": "TodayWeather",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#741f8a",
+    "theme_color": "#3c1f83",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/logo-72x72.jpg",
+            "type": "image/jpeg", "sizes": "72x72"
+        },
+        {
+            "src": "/img/logo-113x113.jpg",
+            "type": "image/jpeg", "sizes": "113x113"
+        },
+        {
+            "src": "/img/logo-225x225.jpeg",
+            "type": "image/jpeg", "sizes": "225x225"
+        }
+    ]
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar" content="#3c1f83" />
+    <meta name="theme-color" content="#3c1f83" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="img/logo-72x72.jpg" />
+    <link rel="apple-touch-icon" href="img/logo-113x113.jpg" />
+    <link rel="apple-touch-icon" href="img/logo-225x225.jpeg" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Today Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div action="#" class="search">
+            <input type="text" class="search-input" placeholder="Find Your City" required>
+            <button class="search-button">
+                <svg class="search-icon">
+                    <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="content">
+            <h4 class="loading"></h4>
+            <h1 class="weather-degree">
+                <span class="weather-temp"></span> 
+                <span class="weather-icon"></span>
+            </h1>
+
+            <h3 class="weather-city"></h3>
+            <p class="weather-date"></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
